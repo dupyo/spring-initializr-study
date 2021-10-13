@@ -48,6 +48,8 @@ public class Prac {
         course.setTitle("Spring");
         course.setTutor("홍두표");
         course.setDays(35);
-        System.out.println(course.getTutor());
+
+        Tutor tutor = new Tutor("홍두표", "신입개발자");
+        System.out.println(tutor.toString());
     }
 }

@@ -31,4 +31,9 @@ public class Tutor {
     public String getBio() {
         return this.bio;
     }
+    // toString() 오버라이딩
+    @Override
+    public String toString() {
+        return "Tutor { name: " + getName() + ", bio: " + getBio() + " }";
+    }
 }
