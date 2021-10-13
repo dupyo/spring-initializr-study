@@ -1,4 +1,4 @@
-package com.springinitializr.week01.prac;
+package com.springinitializr.study.prac;
 
 public class Course {
     // title, tutor, days 가 Course 라는 맥락 아래에서 의도가 분명히 드러남.

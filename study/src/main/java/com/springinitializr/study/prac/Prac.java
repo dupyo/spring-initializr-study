@@ -1,4 +1,4 @@
-package com.springinitializr.week01.prac;
+package com.springinitializr.study.prac;
 
 import java.util.List;
 
@@ -44,7 +44,7 @@ public class Prac {
     }
 
     public static void main(String[] args) {    // import 단축키 Alt + Enter
-        Course course = new Course();
+        com.springinitializr.study.prac.Course course = new com.springinitializr.study.prac.Course();
         course.setTitle("Spring");
         course.setTutor("홍두표");
         course.setDays(35);

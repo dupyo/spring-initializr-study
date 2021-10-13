@@ -1,4 +1,4 @@
-package com.springinitializr.week01.prac;
+package com.springinitializr.study.prac;
 
 public class Tutor {
     // 멤버변수 선언

@@ -1,10 +1,10 @@
-package com.springinitializr.week01;
+package com.springinitializr.study;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Week01ApplicationTests {
+class StudyApplicationTests {
 
     @Test
     void contextLoads() {
