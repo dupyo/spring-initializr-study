@@ -1,3 +1,6 @@
+// 그레이들(Gradle)을 사용하는 이유
+// 1. 프로젝트를 배포할 때 사용
+// 2. 외부 라이브러리를 내려받을 때 사용
 plugins {
     id 'org.springframework.boot' version '2.5.5'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
@@ -26,6 +29,9 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation 'org.json:json:20160810'
 }
 
 test {
